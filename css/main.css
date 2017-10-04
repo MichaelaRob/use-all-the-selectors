@@ -16,10 +16,30 @@ nav ul {
   background-color: #eee8d5;
 }
 
+#contents, #favs, #facts, #types {
+  color: #93a1a1
+}
+
 wrapper > .dfn {
   background-colour: #b58900;
 }
 
-#contents, #favs, #facts, #types {
-  color: #93a1a1
+h2 + .dfn + strong {
+  color: #fff;
+}
+
+ol li:first-child {
+  color: #719e47;
+}
+
+ol li:last-child {
+  color: #2aa198;
+}
+
+.types li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types li:nth-child(even) {
+  background-color: #586e75;
 }
