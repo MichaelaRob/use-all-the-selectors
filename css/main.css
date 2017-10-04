@@ -1,13 +1,13 @@
 b {
-  background-colour: #fdf6e3;
+  background-color: #fdf6e3;
 }
 
 header, footer {
-  font-size:1.5rem;
+  font-size: 1.5rem;
 }
 
 nav ul {
-  font-family:sans-serif;
+  font-family: sans-serif;
 }
 .logo {
   text-transform: uppercase;
@@ -17,11 +17,11 @@ nav ul {
 }
 
 #contents, #favs, #facts, #types {
-  color: #93a1a1
+  color: #93a1a1;
 }
 
 wrapper > .dfn {
-  background-colour: #b58900;
+  background-color: #b58900;
 }
 
 h2 + .dfn + strong {
